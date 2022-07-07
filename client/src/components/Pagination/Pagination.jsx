@@ -17,7 +17,7 @@ function Pagination({ tasksPerPage, totalTasks, paginate, currentPage }) {
         {
           pageNumbers.map((number) => (
             <li className="dropdown-item" key={number} onClick={() => paginate(number)}>
-                {number}
+              {number}
             </li>
           ))
         }
