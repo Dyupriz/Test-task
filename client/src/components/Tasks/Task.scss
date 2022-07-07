@@ -1,0 +1,49 @@
+.containerButton {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.count {
+  margin: 10px;
+  padding: 10px;
+}
+
+.row {
+  text-align: left;
+  border-bottom: 1px #97999ef3 solid;
+  margin-right: calc(-2.5 * var(--bs-gutter-x));
+  margin-left: calc(-2.5 * var(--bs-gutter-x));
+}
+
+.btn {
+  margin: 2px;
+  --bs-btn-border-width: 2px;
+  --bs-btn-hover-bg: rgb(0 0 0);
+  --bs-btn-border-color: rgb(0, 0, 0);
+  --bs-btn-color: rgb(0 0 0);
+  --bs-btn-hover-border-color: rgb(0 0 0);
+}
+
+.p {
+  --bs-btn-color: rgb(0, 0, 0);
+  --bs-btn-border-color: rgb(255, 255, 255);
+}
+
+.columns {
+  border-top: 1px #97999ef3 solid;
+}
+
+.text {
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.status {
+  border: 1px #97999ef3 solid;
+  margin: 8px;
+  text-align: center;
+  border-radius:20px;
+}
