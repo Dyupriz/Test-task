@@ -71,7 +71,7 @@ function Tasks() {
         <Link to="/taskInformation" onClick={() => setTaskInfo(task)} key={task.id} className="nav-link" >
           <div className="row align-items-start text">
             <div className="col text text">
-              {task.id}<br />
+              № {task.id}<br />
               {dateProcessing(task.created_date)}
             </div>
             <div className="col-4 text">
